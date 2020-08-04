@@ -3,8 +3,7 @@ require'yaml'
 require'pry'
 
 def load_library (file_path)
-  emoticons = YAML.load_file("file_path")
-  emoticons.each do |key, value, language|
+  emoticons = YAML.load_file(file_path)
       binding.pry
   end
 end
