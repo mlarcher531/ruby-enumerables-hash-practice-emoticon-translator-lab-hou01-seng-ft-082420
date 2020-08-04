@@ -22,7 +22,7 @@ def get_english_meaning(file_path, jap_emoticon)
   eng_lib = YAML.load_file(file_path)
   eng_lib.each do |meaning, emotes|
     #binding.pry
-    emotes.each do |eng, jap|
+    emotes.each_with_object do |eng, jap|
       binding.pry
       if eng == jap_emoticon
     binding.pry
