@@ -24,7 +24,7 @@ def get_english_meaning(file_path, jap_emoticon)
     #binding.pry
     emotes.each do |language, emo,|
       #binding.pry
-      if language == jap_emoticon
+      if emo == jap_emoticon
         p meaning
   end
   binding.pry
