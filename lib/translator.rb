@@ -14,7 +14,9 @@ table = {}
     end
 
 
-def get_japanese_emoticon
+def get_japanese_emoticon(file_path, eng_meaning)
+  jap_lib = load_library(file_path)
+  binding.pry
 
 end
 
