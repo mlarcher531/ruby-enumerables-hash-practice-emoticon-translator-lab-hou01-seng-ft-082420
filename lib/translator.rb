@@ -19,8 +19,6 @@ def get_japanese_emoticon
 end
 
 def get_english_meaning(file_path, emoticon)
-  file_path.each do |emo, eng_mean|
-  end
   binding.pry
   # code goes here
 end
