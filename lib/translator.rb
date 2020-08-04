@@ -17,7 +17,7 @@ table = {}
 def get_japanese_emoticon(file_path, eng_emo)
   jap_lib = load_library(file_path)
   jap_lib.each do |meaning, emotes|
-    emotes.each do |key, value|
+    emotes.each do |language, emo|
   binding.pry
 end
 end
