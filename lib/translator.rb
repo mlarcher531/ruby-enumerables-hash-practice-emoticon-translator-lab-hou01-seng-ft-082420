@@ -14,12 +14,13 @@ table = {}
     end
 
 
-def get_japanese_emoticon(file_path)
-  file_path.each do |meaning, jap_emo|
-  end
-  binding.pry
+def get_japanese_emoticon
+
 end
 
-def get_english_meaning
+def get_english_meaning(file_path)
+  file_path.each do |emo, eng_mean|
+  end
+  binding.pry
   # code goes here
 end
