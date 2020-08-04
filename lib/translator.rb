@@ -27,7 +27,6 @@ def get_english_meaning(file_path, jap_emoticon)
       if language == jap_emoticon
         binding.pry
         p meaning
-        binding.pry
   end
 end
   end
