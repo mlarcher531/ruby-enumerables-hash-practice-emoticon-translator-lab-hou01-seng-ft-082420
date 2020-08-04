@@ -4,7 +4,7 @@ require'pry'
 
 def load_library(file_path)
   emoticons = YAML.load_file(file_path)
-table = {{}}
+table = {}
   emoticons.each do |key, value|
     table[key] = {}
     binding.pry
