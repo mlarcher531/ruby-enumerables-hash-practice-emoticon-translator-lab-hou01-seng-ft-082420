@@ -10,6 +10,7 @@ table = {}
     table[key][:english] = value[0]
     table[key][:japanese] = value[1]
     end
+    .binding.pry
     end
 
 
