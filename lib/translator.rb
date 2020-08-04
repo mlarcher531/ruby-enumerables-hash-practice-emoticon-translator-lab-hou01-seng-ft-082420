@@ -15,7 +15,7 @@ table = {}
 
 
 def get_japanese_emoticon(file_path, emoticons)
-  # code goes here
+  binding.pry
 end
 
 def get_english_meaning
