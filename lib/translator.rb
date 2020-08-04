@@ -16,7 +16,6 @@ table = {}
 
 def get_japanese_emoticon(file_path)
   file_path.each do |meaning, jap_emo|
-    binding.pry
   end
   binding.pry
 end
