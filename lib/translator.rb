@@ -18,10 +18,10 @@ def get_japanese_emoticon(file_path, eng_emo)
   jap_lib = load_library(file_path)
   jap_lib.each do |meaning, emotes|
     emotes.each do |language, emo|
-  binding.pry
+  #binding.pry
   if emo == eng_emo
     return emotes[:japanese]
-    binding.pry
+    #binding.pry
   end
 end
 end
