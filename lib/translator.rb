@@ -25,5 +25,6 @@ def get_english_meaning(file_path, jap_emoticon)
       if eng == jap_emoticon
     binding.pry
   end
+end
   end
   end
