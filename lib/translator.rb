@@ -21,6 +21,7 @@ def get_japanese_emoticon(file_path, eng_emo)
   #binding.pry
   if emo == eng_emo
     return emo
+    binding.pry
   end
 
 end
