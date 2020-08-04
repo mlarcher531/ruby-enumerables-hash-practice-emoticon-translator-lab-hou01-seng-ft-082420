@@ -23,7 +23,7 @@ def get_english_meaning(file_path, jap_emoticon)
   eng_lib.each do |meaning, emotes|
     #binding.pry
     emotes.map do |eng, jap|
-      binding.pry
+      #binding.pry
       if eng == jap_emoticon
     binding.pry
   end
