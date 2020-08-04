@@ -19,6 +19,8 @@ def get_japanese_emoticon(file_path, eng_emo)
   jap_lib.each do |meaning, emotes|
     emotes.each do |language, emo|
   binding.pry
+  if emo == eng_emo
+    return emo
 end
 end
 end
