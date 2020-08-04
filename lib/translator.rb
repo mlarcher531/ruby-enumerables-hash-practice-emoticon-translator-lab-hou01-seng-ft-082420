@@ -7,6 +7,8 @@ def load_library(file_path)
 table = {}
   emoticons.each do |key, value|
     table[key] ||= {}
+    table[key][:english] = value[0]
+    table[key][:japanese] = value[1]
     end
       binding.pry
     end
