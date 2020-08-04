@@ -25,9 +25,9 @@ def get_english_meaning(file_path, jap_emoticon)
     emotes.each do |language, emo,|
       #binding.pry
       if language == jap_emoticon
-        binding.pry
         p meaning
   end
+  binding.pry
 end
   end
   "Sorry, that emoticon was not found"
